@@ -7,6 +7,7 @@ public class BotModel : MonoBehaviour
 {
     public int Id { get;  set; }
     public int Speed { get; set; }
+    public int Ball { get; set; }
     private void Awake()
     {
         BotStats botStats = new BotStats();

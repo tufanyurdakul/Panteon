@@ -19,6 +19,7 @@ public class Game : MonoBehaviour
         gameSettings = GetComponent<GameSettingsModel>();
         InsantiateEnemies();
         StartCoroutine(SetTime());
+        //Painting = true;
     }
     private IEnumerator SetTime()
     {
@@ -49,6 +50,5 @@ public class Game : MonoBehaviour
                 tmpBot.SetText(""+botModel.Id);
             }
         }
-        
     }
 }

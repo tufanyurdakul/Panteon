@@ -15,6 +15,7 @@ TagManager:
   - Redline
   - Bot
   - HalfDonut
+  - Ball
   layers:
   - Default
   - TransparentFX

@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Game\Model\GameSettingsModel.cs" />
     <Compile Include="Assets\Scripts\Game\Model\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Game\Movement\BotMovement.cs" />
+    <Compile Include="Assets\Scripts\Game\Movement\BotPatterns.cs" />
     <Compile Include="Assets\Scripts\Game\Movement\BoyMovement.cs" />
     <Compile Include="Assets\Scripts\Game\Obstacle\MoveHalfDonut.cs" />
     <Compile Include="Assets\Scripts\Game\Obstacle\MoveHorizontalObstacle.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Scripts\Menu\Data.cs" />
     <Compile Include="Assets\Scripts\Menu\GamePanel.cs" />
     <Compile Include="Assets\Scripts\Menu\Panels.cs" />
+    <Compile Include="Assets\Scripts\Menu\ScorePanel.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

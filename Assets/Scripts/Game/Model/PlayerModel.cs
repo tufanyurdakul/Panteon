@@ -6,6 +6,7 @@ public class PlayerModel : MonoBehaviour
 {
     public int Id { get; private set; }
     public int Speed { get; set; }
+    public int Ball { get; set; }
     private void Awake()
     {
         PlayerStats playerStats = new PlayerStats();
